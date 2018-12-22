@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[script 1]]>
+    </line>
+    <line>
+      <![CDATA[Script 2]]>
+    </line>
+    <line>
+      <![CDATA[script 3]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63" started-at="2018-12-18T03:39:26Z" finished-at="2018-12-18T03:39:26Z">
+    <groups>
+      <group name="functional">
+        <method signature="Annotation2.script1()[pri:0, instance:TestNg.Annotation2@34c4973]" name="script1" class="TestNg.Annotation2"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="Annotation2.script1()[pri:0, instance:TestNg.Annotation2@34c4973]" name="script1" class="TestNg.Annotation2"/>
+        <method signature="Annotation2.script2()[pri:0, instance:TestNg.Annotation2@34c4973]" name="script2" class="TestNg.Annotation2"/>
+        <method signature="Annotation2.script3()[pri:0, instance:TestNg.Annotation2@34c4973]" name="script3" class="TestNg.Annotation2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="63" started-at="2018-12-18T03:39:26Z" finished-at="2018-12-18T03:39:26Z">
+      <class name="TestNg.Annotation2">
+        <test-method status="PASS" signature="script1()[pri:0, instance:TestNg.Annotation2@34c4973]" name="script1" duration-ms="12" started-at="2018-12-18T03:39:26Z" finished-at="2018-12-18T03:39:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[script 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script1 -->
+        <test-method status="PASS" signature="script2()[pri:0, instance:TestNg.Annotation2@34c4973]" name="script2" duration-ms="3" started-at="2018-12-18T03:39:26Z" finished-at="2018-12-18T03:39:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Script 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script2 -->
+        <test-method status="PASS" signature="script3()[pri:0, instance:TestNg.Annotation2@34c4973]" name="script3" duration-ms="2" started-at="2018-12-18T03:39:26Z" finished-at="2018-12-18T03:39:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[script 3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script3 -->
+      </class> <!-- TestNg.Annotation2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
